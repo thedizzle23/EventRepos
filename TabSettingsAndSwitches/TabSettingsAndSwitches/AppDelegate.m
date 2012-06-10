@@ -14,6 +14,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //initialize the settings value first;
+    //if not all the settings values will be nill----
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    if (![defaults objectForKey:@"login_name"]) {
+        [defaults setObject:@"login name" forKey:@"login_name"];
+    }
+    if (![defaults objectForKey:@"password"]) {
+            [defaults setObject:@"password" forKey:@"password"];
+    }
+    if (![defaults objectForKey:@"color"]) {
+        [defaults setObject:@"Green" forKey:@"color"];
+    }
+    [defaults synchronize];
+    
+    
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

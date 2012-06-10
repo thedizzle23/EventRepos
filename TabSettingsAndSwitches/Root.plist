@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<dict>
+		<key>StringsTable</key>
+		<string>Root</string>
+		<key>PreferenceSpecifiers</key>
+		<array>
+			<dict>
+				<key>Title</key>
+				<string>Account Information</string>
+				<key>Type</key>
+				<string>PSGroupSpecifier</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Login Name</string>
+				<key>Type</key>
+				<string>PSTextFieldSpecifier</string>
+				<key>Key</key>
+				<string>login_name</string>
+				<key>DefaultValue</key>
+				<string>login name</string>
+				<key>AutoCapitalizationType</key>
+				<string>None</string>
+				<key>AutoCorrectionType</key>
+				<string>No</string>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Password</string>
+				<key>Type</key>
+				<string>PSTextfieldSpecifier</string>
+				<key>Key</key>
+				<string>Password</string>
+				<key>DefaultValue</key>
+				<string>password</string>
+				<key>isSecure</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Title</key>
+				<string>Favorite Color</string>
+				<key>Type</key>
+				<string>PSMultiValueSpecifier</string>
+				<key>Key</key>
+				<string>color</string>
+				<key>DefaultValue</key>
+				<string>Green</string>
+				<key>Values</key>
+				<array>
+					<string>Red</string>
+					<string>Green</string>
+					<string>Blue</string>
+				</array>
+				<key>Titles</key>
+				<array>
+					<string>Red Color</string>
+					<string>Green Color</string>
+					<string>Blue Color</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

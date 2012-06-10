@@ -26,6 +26,8 @@
 		B2A4CF0F1584D7D800C13046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A4CEE21584D7D700C13046 /* Foundation.framework */; };
 		B2A4CF171584D7D800C13046 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2A4CF151584D7D800C13046 /* InfoPlist.strings */; };
 		B2A4CF1A1584D7D800C13046 /* TabSettingsAndSwitchesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A4CF191584D7D800C13046 /* TabSettingsAndSwitchesTests.m */; };
+		B2A4CF281584DA1000C13046 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2A4CF271584DA1000C13046 /* Settings.bundle */; };
+		B2A4CF2A1584DA3700C13046 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2A4CF291584DA3700C13046 /* Root.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		B2A4CF161584D7D800C13046 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2A4CF181584D7D800C13046 /* TabSettingsAndSwitchesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabSettingsAndSwitchesTests.h; sourceTree = "<group>"; };
 		B2A4CF191584D7D800C13046 /* TabSettingsAndSwitchesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabSettingsAndSwitchesTests.m; sourceTree = "<group>"; };
+		B2A4CF271584DA1000C13046 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B2A4CF291584DA3700C13046 /* Root.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		B2A4CED11584D7D700C13046 = {
 			isa = PBXGroup;
 			children = (
+				B2A4CF271584DA1000C13046 /* Settings.bundle */,
+				B2A4CF291584DA3700C13046 /* Root.plist */,
 				B2A4CEE61584D7D700C13046 /* TabSettingsAndSwitches */,
 				B2A4CF121584D7D800C13046 /* TabSettingsAndSwitchesTests */,
 				B2A4CEDF1584D7D700C13046 /* Frameworks */,
@@ -249,6 +255,8 @@
 				B2A4CEFE1584D7D800C13046 /* first@2x.png in Resources */,
 				B2A4CF031584D7D800C13046 /* second.png in Resources */,
 				B2A4CF051584D7D800C13046 /* second@2x.png in Resources */,
+				B2A4CF281584DA1000C13046 /* Settings.bundle in Resources */,
+				B2A4CF2A1584DA3700C13046 /* Root.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
